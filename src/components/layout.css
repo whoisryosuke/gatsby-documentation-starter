@@ -791,7 +791,7 @@ pre tt:after {
 .line {
   fill: none;
   transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-  stroke: #000;
+  stroke: #FFF;
   stroke-width: 5.5;
   stroke-linecap: round;
 }
