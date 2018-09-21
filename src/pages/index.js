@@ -6,30 +6,35 @@ import Layout from '../components/layout'
 const IndexPage = ({ data }) => (
   <Layout>
     <div className="content">
-      <h1>Style Guide Guide</h1>
-      <h3>A boilerplate for creating superb style guides</h3>
-      <p>
-        The homepage of a style guide should provide high-level information
-        around what the design system is, what benefits it provides, who it’s
-        for, and how to get started with it. Like any good index page, it should
-        provide clear navigation to key parts of the website.
-      </p>
+
+      <h1>Documentation for React Projects</h1>
+
+      <p>Automatically generate documentation for your project using MDX, react-docgen, and GatsbyJS.</p>
+    
+      <h2>Features</h2>
+
+      <ul>
+        <li>📝 <a href="https://github.com/mdx-js/mdx">MDX</a> - Write your documentation in Markdown and include React components using JSX!</li>
+        <li>♻️ <a href="https://github.com/reactjs/react-docgen">react-docgen</a> - Automatically parses all your React components (functional, stateful, even stateless!) for JS Docblocks and Prop Types.</li>
+        <li>⚛️ <a href="http://gatsby.org" rel="nofollow">GatsbyJS</a> - Creates local GraphQL server to build static version of documentation (easily deployed on a CDN or GHPages, Netlify, etc)</li>
+        <li>🗄 Props Table - Component for displaying component props in a table format</li>
+        <li>🎛 Modular - Easily install inside existing projects!</li>
+        <li>⚖️ Lighweight - Only what you need, no extra dependencies.</li>
+      </ul>
+      
+      <h2>Quick Start</h2>
+      
+      <ol>
+        <li><code>git clone</code> project</li>
+        <li>Update <code>gatsby-config.js</code> with the location of your components + MDX <em>(see: "Changing source folder")</em></li>
+        <li><code>npm install</code> inside project</li>
+        <li><code>npm run develop</code></li>
+        <li>View your documentation: <a href="http://localhost:8000" rel="nofollow">http://localhost:8000</a></li>
+      </ol>
+
       <Link to="about" className="btn">
         Get Started
       </Link>
-      <h2>Design System Benefits</h2>
-      <p>
-        Explain how the design system benefits users and the business. For
-        inspiration, check out over 180 examples of design systems at
-        Styleguides.io. tivizes teams to use the system, and shows components in
-        the wild.
-      </p>
-      <h2>Contributing info</h2>
-      <p>
-        If it’s desirable to have people from across the organization contribute
-        to the design system, linking to the contributing page from the homepage
-        could be a good idea.
-      </p>
     </div>
   </Layout>
 )
