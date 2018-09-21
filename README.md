@@ -1,4 +1,4 @@
-![Screenshot of example Documentation website created with this template](thumbnail2.jpg)
+![Screenshot of example Documentation website created with this template](thumbnail.png)
 
 # Gatsby Documentation Starter
 
@@ -26,7 +26,7 @@ Automatically generate documentation for your project using MDX, react-docgen, a
 
 **Custom install**
 
-1. `git clone` project
+1. `git clone https://github.com/whoisryosuke/gatsby-documentation-starter.git`
 1. Update `gatsby-config.js` with the location of your components + MDX _(see: "Changing source folder")_
 1. `npm install` inside project
 1. `npm run develop`
