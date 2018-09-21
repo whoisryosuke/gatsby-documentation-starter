@@ -11,7 +11,7 @@ Automatically generate documentation for your project using MDX, react-docgen, a
 - ⚛️ [GatsbyJS](http://gatsby.org) - Creates local GraphQL server to build static version of documentation (easily deployed on a CDN or GHPages, Netlify, etc)
 - 🗄 Props Table - Component for displaying component props in a table format
 - 🎛 Modular - Easily install inside existing projects!
-- ⚖️ Lighweight - Only what you need, no extra dependencies.
+- ⚖️ Lightweight - Only what you need, no extra dependencies.
 
 ## Quick Start
 
