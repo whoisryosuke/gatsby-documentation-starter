@@ -21,6 +21,8 @@ Automatically generate documentation for your project using MDX, react-docgen, a
 1. `npm run develop`
 1. View your documentation: http://localhost:8000
 
+Check out the [example branch](https://github.com/whoisryosuke/gatsby-documentation-starter/tree/example) to see the demo.
+
 ### Creating documentation
 
 Documentation is sourced from two places: component source code and MDX files.
@@ -35,7 +37,25 @@ src
 
 **React-docgen** grabs any JS Docblocks you write for your React classes/functions (`Button.js`), as well as the Prop Types. These are displayed on your documentation page, with the props displayed in a table.
 
-Inside your **MDX** file you can write additional documentation with JSX examples. You can also specify the page slug here (a category and page title).
+Inside your **MDX** file you can write additional documentation with JSX examples. You can also specify the page slug here (a **page name** and **category**). Your pages will be generated as `http://yoursite.com/<category>/<pageName>`.
+
+In order for your component data to show up, you need an MDX file for the component - and the page name and component name in the docblock need to match.
+
+```js
+/**
+ * ComponentTitle
+**/
+class ComponentName extends React.Component {}
+```
+
+```md
+---
+name: ComponentTitle
+menu: CategoryName
+---
+```
+
+> Creates a page for the component located at http://localhost:8000/categoryname/componentname
 
 ## Documentation
 
@@ -91,7 +111,7 @@ This project is designed to be embedded inside existing projects.
 
 ### Creating pages from react-docgen
 
-Currently this template is setup to generate pages based off MDX files in your project. This allows you to create a `Button.mdx` to document your `<Button />`, or even a `About.mdx` to create an About page.
+This template is setup to generate pages based off MDX files in your project. This allows you to create a `Button.mdx` to document your `<Button />`. 
 
 > It's not required to make pages based off MDX. You can use Gatsby's default routing configuration, which creates pages based on any `.js` files located in the `pages` subfolder.
 
