@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
 class Header extends React.Component {
@@ -37,6 +38,27 @@ class Header extends React.Component {
       </nav>
     )
   }
+}
+
+Header.propTypes = {
+  /**
+   * Is the mobile menu active?
+   */
+  active: PropTypes.bool,
+  /**
+   * The website title (from gatsby-config.js)
+   */
+  siteTitle: PropTypes.string,
+  /**
+   * Changes active state of sidebar
+   */
+  toggleSidebar: PropTypes.func
+}
+
+Header.defaultProps = {
+  active: true,
+  siteTitle: 'Your site name',
+  toggleSidebar: false,
 }
 
 export default Header
