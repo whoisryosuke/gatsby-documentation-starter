@@ -23,6 +23,8 @@ Automatically generate documentation for your project using MDX, react-docgen, a
 
 Check out the [example branch](https://github.com/whoisryosuke/gatsby-documentation-starter/tree/example) to see the demo.
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/whoisryosuke/gatsby-documentation-starter/tree/example)
+
 ### Creating documentation
 
 Documentation is sourced from two places: component source code and MDX files.
