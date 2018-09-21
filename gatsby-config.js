@@ -26,9 +26,6 @@ module.exports = {
     },
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-feed`,
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `components`,
@@ -109,29 +106,6 @@ module.exports = {
     //     ],
     //   },
     // },
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        // output: `/some-other-sitemap.xml`,
-        // exclude: [`/path/to/page`, `/another/page`],
-        query: `
-        {
-          site {
-            siteMetadata {
-              siteUrl
-            }
-          }
-
-          allSitePage {
-            edges {
-              node {
-                path
-              }
-            }
-          }
-      }`,
-      },
-    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
