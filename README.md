@@ -15,6 +15,12 @@ Automatically generate documentation for your project using MDX, react-docgen, a
 
 ## Quick Start
 
+**One-click install**
+
+1. [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/whoisryosuke/gatsby-documentation-starter/tree/example)
+
+**Custom install**
+
 1. `git clone` project
 1. Update `gatsby-config.js` with the location of your components + MDX _(see: "Changing source folder")_
 1. `npm install` inside project
@@ -22,8 +28,6 @@ Automatically generate documentation for your project using MDX, react-docgen, a
 1. View your documentation: http://localhost:8000
 
 Check out the [example branch](https://github.com/whoisryosuke/gatsby-documentation-starter/tree/example) to see the demo.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/whoisryosuke/gatsby-documentation-starter/tree/example)
 
 ### Creating documentation
 
