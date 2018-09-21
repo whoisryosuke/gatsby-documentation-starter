@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: 'Gatsby Documentation Starter',
+    description:
+      'Automatically generate docs for React components using MDX, react-docgen, and GatsbyJS',
+    siteUrl: '#',
     sidebar: {
       pages: [
         {
