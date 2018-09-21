@@ -22,7 +22,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-twitter`,
     {
       resolve: `gatsby-plugin-feed`,
     },
