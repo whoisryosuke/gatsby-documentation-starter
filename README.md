@@ -15,9 +15,14 @@ Automatically generate documentation for your project using MDX, react-docgen, a
 
 ## Quick Start
 
-**One-click install**
+**Install with Netlify**
 
 1. [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/whoisryosuke/gatsby-documentation-starter/tree/example)
+
+
+**Install with Gatsby CLI**
+
+1. `gatsby new docs https://github.com/whoisryosuke/gatsby-documentation-starter/`
 
 **Custom install**
 
@@ -27,7 +32,7 @@ Automatically generate documentation for your project using MDX, react-docgen, a
 1. `npm run develop`
 1. View your documentation: http://localhost:8000
 
-Check out the [example branch](https://github.com/whoisryosuke/gatsby-documentation-starter/tree/example) to see the demo.
+Check out the [example branch](https://github.com/whoisryosuke/gatsby-documentation-starter/tree/example) to see the source code of [the demo](https://gatsby-documentation-starter.netlify.com/).
 
 ### Creating documentation
 
@@ -271,3 +276,4 @@ export const pageQuery = graphql`
 - [gatsby-transformer-react-docgen](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-transformer-react-docgen)
 - [gatsby-transformer-remark](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-transformer-remark)
 - [Style Guide Guide](http://bradfrost.github.io/style-guide-guide/)
+- [Mobile Button CSS](https://codepen.io/ainalem/pen/LJYRxz)
