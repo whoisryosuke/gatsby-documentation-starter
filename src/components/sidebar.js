@@ -2,6 +2,11 @@ import React from 'react'
 import { Link } from 'gatsby'
 import capitalize from '../tools/capitalize'
 
+/**
+ * Sidebar
+ * 
+ * @param {props} props 
+ */
 const Sidebar = ({ active, components, sidebarPages }) => (
   <nav className={`Sidebar ${active ? 'visible' : ''}`}>
     {sidebarPages

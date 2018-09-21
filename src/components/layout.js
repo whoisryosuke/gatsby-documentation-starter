@@ -7,6 +7,12 @@ import Header from './header'
 import Sidebar from './sidebar'
 import './layout.css'
 
+/**
+ * Layout
+ *
+ * @class Layout
+ * @extends {React.Component}
+ */
 class Layout extends React.Component {
   state = {
     active: false,

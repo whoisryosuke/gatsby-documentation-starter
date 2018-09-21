@@ -2,6 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
+/**
+ * Header
+ *
+ * @class Header
+ * @extends {React.Component}
+ */
 class Header extends React.Component {
   render() {
     const { active, siteTitle, toggleSidebar } = this.props
