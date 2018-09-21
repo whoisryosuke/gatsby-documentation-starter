@@ -1,0 +1,25 @@
+---
+name: Sidebar
+menu: Components
+---
+
+import Sidebar from '../../../src/components/sidebar'
+import SidebarComponents from '../../../src/components/sidebar-components.json'
+import SidebarPages from '../../../src/components/sidebar-pages.json'
+
+### Best practices
+
+- Top navigation is from `siteMetadata` configuration inside `gatsby-config.js` 
+- Bottom navigation is automatically generated from MDX files by default.
+
+## Properties
+
+
+## Basic usage
+
+
+<Sidebar
+  active={true}
+  toggleSidebar={() => {}}
+  components={SidebarComponents}
+  sidebarPages={SidebarPages} />
